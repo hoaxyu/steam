@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wow Free Giftcards</title>
+  </head>
+<style>
+*{
+margin: 0;
+padding: 0;
+}
+nav{
+color: white;
+background-color: rgb(27, 27, 27);
+background-size: cover;
+background-repeat: no-repeat;
+font-size: 40px;
+padding: 5px
+
+}
+body{
+background-color: #171a21;
+background-size:cover;
+background-image: linear-gradient(rgba(15, 11, 32, 0.8),rgba(15, 11, 32, 0.6)),url("https://wallpaperaccess.com/full/322049.jpg");
+background-origin: center;
+color: white;
+}
+.bo{
+align-self: center;
+border-radius: 1em;
+margin-left: 30%;
+margin-right: 30%;
+padding: 2em;
+background-image: url("https://steamuserimages-a.akamaihd.net/ugc/933808593006261492/6766A0B9C474D61C6B203A6D30D83E634705714F/");
+background-repeat: no-repeat;
+background-origin: center;
+border: 2px solid black;
+font-size: 30px;
+
+}
+.ans{
+   display: none;
+   background-color:rgb(41, 11, 41,0.7);
+   margin-left: 40%;
+   margin-right: 40%;
+   border-radius: 2em;
+   padding: 1em;
+}
+.text{
+   font-size: 30px;
+   margin-left: 20%;
+   margin-right: 20%;
+   background-color:rgba(1,1,1, 0.6);
+   padding: 0.4em;
+   border-radius: 2em;
+}
+.text h1{
+   font-size: 40px;
+}
+@media only screen and (max-width: 700px){
+   nav{
+font-size: 20px;
+padding: 15px;
+   }
+   .text{
+      margin-left: 5%;
+   margin-right: 5%;
+   }
+.bo{
+   
+   border-bottom: red 1em solid line;
+   margin-left: 10%;
+   margin-right: 10%;
+}
+.ans{
+   margin-left: 6%;
+   margin-right: 6%;
+}
+}
+button{
+   background-color: rgb(41, 11, 41);
+   color: white;
+   font-size: 20px;
+   border-radius: 2em;
+   padding: 0.4em;
+   outline: none;
+   
+}
+
+.lock{
+   border-bottom: red 1em solid line;
+
+background-size: cover;
+background-origin: center;
+background-repeat: none;
+}
+</style>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+<nav>
+<center>
+   <img src="https://steamcommunity-a.akamaihd.net/public/shared/images/responsive/header_logo.png" height="36" border="0" alt="STEAM">
+</center>
+</nav>
+<center>
+   <br><br>
+   <div class = "text">
+      <h1>كودس ستيم للمفلسين</h1>
+      <br><br>
+      .هل انت ملان في الحجر المنزلي؟ لا تقلق! فقط اضغط على الزر حتى تستمتع في الاجازة. لا تشارك هذا الموقع مع السلطة القانونية في بلدك لأسباب فنية لن تفهمها مهما شرحتها لك
+   <br><br><iframe style="border-radius: 1em;"width="100%" height=400px src="https://www.youtube.com/embed/kUkBNcYgWV4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   <br><br>
+   </div>
+   <br><br>
+   
+   <div class = "lock">
+      <button onclick="makeid(5)"> Generate </button> 
+      <br><br>
+
+      <h2 id='x' class="ans">This is a paragraph.</h2>
+      <br>  
+<h1 class="bo">Click On The Button!</h1>
+<br><br><br><br>
+</div>
+<br><br>
+<marquee behaviour="scroll" direction="right">
+   <img src="https://www.festivalclaca.cat/pics/b/6/60965_steam-gift-card-png.png" height="300px">
+</marquee>
+
+
+</center>
+<script>
+var x;
+function makeid(length) {
+   var result           = '';
+   var result2 = '';
+   var result3 = '';
+   var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+   var charactersLength = characters.length;
+   for ( var i = 0; i < length; i++ ) {
+      result += characters.charAt(Math.floor(Math.random() * charactersLength));
+   }
+   for ( var i = 0; i < length; i++ ) {
+      result2 += characters.charAt(Math.floor(Math.random() * charactersLength));
+   }
+   for ( var i = 0; i < length; i++ ) {
+      result3 += characters.charAt(Math.floor(Math.random() * charactersLength));
+   }
+   var x = result + '-' + result2 + '-' + result3;
+   document.getElementById('x').innerHTML= x;
+   document.getElementById('x').style.display = "block";
+}
+function nice(){
+
+}
+
+</script>
+</body>
+</html>
